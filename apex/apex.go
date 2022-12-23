@@ -2776,7 +2776,9 @@ func makeApexAvailableBaseline() map[string][]string {
 	// Module separator
 	//
 	m["com.android.btservices"] = []string{
-		// empty
+		"libstdc++",
+		"gwp_asan_headers",
+		"libasync_safe",
 	}
 	//
 	// Module separator
